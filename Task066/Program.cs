@@ -3,10 +3,10 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-Console.WriteLine("Введите два числа:");
-Console.Write("Введите число M: ");
+Console.WriteLine("Enter two number:");
+Console.Write("Enter number M: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число N: ");
+Console.Write("Enter number N: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 if (m < 0) Console.WriteLine("Number M not natural");
